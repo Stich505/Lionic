@@ -1,0 +1,177 @@
+@media (max-width: 1024px) {
+    .form-input,
+    .form-select {
+        width: 100%;
+    }
+    .form-textarea {
+        min-height: 100%;
+    }
+}
+
+@media (min-width: 320px), ( max-width: 576px) {
+    .header__nav {
+        display: none;
+    }
+
+.header {
+    padding: 15px 0;
+}
+
+
+.header-logo {
+    max-width: 80px;
+}
+
+.header__btn {
+    margin-right: 7px;
+    padding: 10px 20.5px;
+}
+
+.burger {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid currentColor;
+    border-radius: 3px;
+    color: #3172B9;
+}
+
+.burger-line {
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    border-radius: inherit;
+    background-color: currentColor;
+    transform: translateX(-50%);
+}
+
+.burger-line:nth-child(1) {
+    top: 13px;
+}
+
+.burger-line:nth-child(2) {
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.burger-line:nth-child(3) {
+    bottom: 13px;
+}
+
+
+/* HERO */
+
+.hero {
+    padding: 30px 0 0 0;
+}
+
+
+.hero-content {
+    width: 100%;
+}
+
+.hero-title {
+    margin-bottom: 15px;
+}
+
+.hero-descr {
+    margin-bottom: 15px;
+}
+
+.hero-wrapper {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.hero-btn {
+    padding: 19px 78px;
+}
+
+
+/* SERVICES */
+
+
+.section-offset {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-title {
+    margin-bottom: 15px;
+}
+
+.services-title {
+    text-align: start;
+}
+
+.services-descr {
+    text-align: start;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+
+.services-list {
+ flex-wrap: wrap;   
+}
+
+.services-item {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 137px;
+}
+
+
+.services-item-icon {
+    padding-top: 15px;
+}
+
+.services-item-desc {
+    padding: 0 12px 15px 12px;
+}
+ 
+.services-item:not(:nth-child(4n)) {
+    margin-right: 16px;
+}
+
+
+.services-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+
+
+/*  ARTICLES */
+
+.articles-list {
+    flex-direction: column;
+}
+
+.articles-item {
+    min-width: 290px;
+}
+
+.blog-preview-image {
+    object-fit: fill;
+    min-width: 86px;
+}
+
+.blog-preview-text {
+    padding: 17px 29px 17px 15px;
+}
+
+.blog-preview-title {
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+}
